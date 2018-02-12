@@ -1,0 +1,13 @@
+@mixin excel () {
+  color : $color_text_p;
+  text-align : $text_center;
+  line-height : 30px;
+}
+
+@mixin img-ab() {
+  position : absolute;
+  border-radius : 100%;
+  bottom : 15em;
+  left : 3em;
+  border: 1em solid #DAB170;
+}

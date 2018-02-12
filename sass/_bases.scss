@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color : $color_black;
+  text-align : $text_center;
+  #nav-list {
+    padding-left : 30em;
+  }
+  li {
+    padding : 0.5em;
+    text-align : $text_center;
+    a {
+      color : $color_white;
+    }
+    a:hover {
+  color : $color_text_hover;
+  background-color : $color_black ;
+    }
+    a:focus {
+  color : $color_text_hover;
+  background-color : $color_black ;
+    }
+  }
+}
+
+#sectionOne, #sectionTwo, #sectionThree, #footer {
+  padding : $padding_section;
+}
+
+#sectionOne {
+  background-color : #EBD7AC;
+  padding-top : 10em;
+  text-align : $text_center;
+  img {
+    @include img-ab();
+  }
+  a {
+    text-decoration : none;
+    background-color : $color-text;
+    color : $color_black;
+    font-size : 0.7em;
+    padding : 0.5em;
+  }
+  h2 {
+    font-size : 1.5em;
+    padding-top : 3em;
+    font-weight : 500;
+  }
+  p {
+    font-size : $font_size;
+    padding : $padding_text;
+  }
+}
+
+#sectionTwo {
+  background-color : #EDF5F9;
+  img {
+    border-radius : $border_img;
+  }
+  h1 {
+    color : #EA8439;
+    text-align : $text_center;
+    font-size : 2em;
+    padding-bottom : 1.2em;
+  }
+  ul {
+    padding : $padding_text;
+  }
+}
+
+#sectionThree {
+  background-color : #6A475F;
+  color : $color_text;
+  .gift {
+    padding : 2em 4em;
+    clear : right;
+    h3 {
+      padding-bottom : $padding_text;
+    }
+    .line {
+      padding-bottom : $padding_text;
+      width : 15em;
+      margin-right : 10em;
+    }
+    img {
+      float : right;
+      border-radius : $border_img;
+      padding : $padding_text;
+    }
+  }
+  .about {
+    text-align : right;
+    padding : 2em 4em;
+    clear : left;
+    h3 {
+      padding-bottom : $padding_text;
+    }
+    .line {
+      padding-bottom : $padding_text;
+      width : 15em;
+      margin-left : 20em;
+    }
+    img {
+      float : left;
+      border-radius : $border_img;
+      padding : $padding_text;
+    }
+  }
+}
+
+#footer {
+  color : $color_text;
+  background-color : #562F4A;
+  .people, .contact {
+    padding-right : 5em;
+  }
+  a {
+    color : #EA8439;
+  }
+  span {
+    color : #EA8439;
+    font-size : 8em;
+    width : 0.5em;
+    height : 0.7em;
+    font-weight : bold;
+    float : left;
+  }
+  h4 {
+    padding-bottom : 1em;
+  }
+  img {
+    border : 0.2em solid #E89050;
+    background-color : #C9B7B7;
+    padding : 0.2em;
+    border-radius : 100%;
+    margin-right : 0.5em;
+  }
+  .separation {
+    padding-top : 4em;
+  }
+}
